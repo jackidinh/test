@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "trade_flatbuf_reader.h"   // Flatcc-generated FlatBuffers reader header
-#include "trade.pb-c.h"             // Protobuf-c generated header
+#include "accounts_reader.h"  
+#include "accountsProtoSchema.pb-c.h"        
 
 int main() {
     // Open FlatBuffer file
